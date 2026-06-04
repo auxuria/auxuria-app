@@ -81,7 +81,7 @@ def onMousePress(x,y):
         app.backGroup.visible=True
         app.backGroup.visible=True
         
-# next screen of app where you choose what you want to fix
+# created a new screen for questions
 def goToNextScreen():
     app.onHomeScreen=False
     for item in loadingScreen:
