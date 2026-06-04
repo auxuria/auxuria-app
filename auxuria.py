@@ -116,7 +116,7 @@ def hideChoicesScreen():
     app.jacketsLabel.visible=False
     app.nearYouScreen.visible=False
 
-# shoes screen 
+# created buttons for connecting users to fashion designers
 app.shoesTitle=Label("Near you:",200,120,size=18)
 app.shoePerson1=Label("Jessica",160,160,size=20,bold=True)
 app.jessicaDetails=Label("Book Now",160,180,size=10,fill='Grey')
