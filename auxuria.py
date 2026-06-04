@@ -21,7 +21,7 @@ app.backBorder=Rect(110,45,40,20,fill='lightGrey',border='black',borderWidth=1)
 app.backLabel=Label('<--',130,55,size=10)
 app.backGroup=Group(app.backBorder,app.backLabel)
 app.backGroup.visible = False 
-# picks up if we are on home screen 
+# added onstep function animation for homescreen
 app.onHomeScreen=True
 def onStep(): 
     if app.onHomeScreen:
