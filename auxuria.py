@@ -59,7 +59,7 @@ def onMousePress(x,y):
         if app.onHomeScreen == True:
             goToNextScreen()
             return
-    # makes buttons clickable 
+    # created a checking function using hasattr() 
     if hasattr(app,'shoes') and app.shoes.hits(x,y) or app.shoesLabel.hits(x,y) and app.shoes.visible:
         hideChoicesScreen()
         app.shoesScreen.visible=True
