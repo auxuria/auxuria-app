@@ -2,14 +2,14 @@ app.background='darkSlateGray'
 # near you
 app.nearYouScreen=Label("Near you:",200,120,size=16)
 app.nearYouScreen.visible=False
-# phone
+# created phone UI
 Rect(100,20,200,360, fill='white', borderWidth=4, border='black')
 Circle(168,30,7)
 Circle(230,30,7)
 Rect(170,25,60,12,fill='black')
 Circle(230,30,3,fill='grey')
 Line(104,23,296,23,fill='lightGrey',lineWidth=3)
-# Home page 
+# home page
 auxuriaLabel = Label('AUXRUIA',200,200,size=28,bold=True,opacity=0)
 sloganLabel = Label('Sustainability for Fashion',200,220,size=10,italic=True,opacity=0)
 startBorder = Rect(150,250,100,30,opacity=0)
